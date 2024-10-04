@@ -1,0 +1,169 @@
+
+/*évite les trou dans le background*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/*petit écran*/
+@media (max-width: 768px) {
+    body {
+        font-size: 16px;
+        margin: 10px;}
+    }
+
+/*modifie le titre des infos données*/
+h2{
+    font-size:20px;
+    text-align:left;
+    color:white;
+}
+.titre2{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 450px;
+    margin-right: 450px;
+    font-family:"pacifico",sans serif;
+}
+
+/*modifie nom du site*/
+.titre{
+    background-color:#111;
+    font-size:40px;
+    text-align:center;
+    color:goldenrod;
+    font-family:"pacifico", cursive;
+}
+
+/* programmation texte info */
+.presentation-contenu2{
+    font-family:'roboto',cursive;
+    flex-wrap: wrap;
+}
+
+/* programmation style des boutons du menu */
+.block-1{
+    justify-content: auto;
+    padding-left:100px;
+    padding-right:100px;
+    margin-left:200px;
+    margin-right:100px;
+    font-family:"pacifico", cursive;
+    font-size:20px;
+    color:palevioletred;
+}
+.block-2{
+    justify-content: auto;
+    padding-left:100px;
+    padding-right:100px;
+    margin-left:100px;
+    margin-right:100px;
+    font-family:"pacifico", cursive;
+    font-size:20px;
+    color:red;
+}
+.block-3{ justify-content: auto;
+    padding-left:100px;
+    padding-right:100px;
+    margin-left:100px;
+    margin-right:100px;
+    font-family:"pacifico", cursive;
+    font-size:20px;
+    color:brown;
+}
+
+/* classe marge gauche droite */
+.marge{
+    margin-left:70px;
+    margin-right:70px;  
+}
+
+/*marge texte info*/
+.marge2{
+    margin-bottom: 20px;
+    text-align: center;
+    margin-left:300px;
+    margin-right:300px;
+    color:white;
+}
+
+/* classe image */
+.image{
+    margin-top: 10px;
+    background-color: #111;
+    margin-left: 50px;
+    height:100px ;
+}
+
+
+
+
+/* 
+programmation du menu
+*/
+.presentation-contenu{
+display:flex;
+background-color: #111;
+border:1px solid #2e2e2e;
+flex-wrap: wrap;
+}
+.bloc-1{
+width: calc( 100% / 3);
+height: 100px;
+color:white;
+}
+.bloc-2{
+width: calc( 100% / 3);
+height: 150px;
+color:white;
+}
+.bloc-3{
+    width: calc( 100% / 3);
+    height: 150px;
+    color:white;
+}
+
+/*fond*/
+.background{
+    background-color: rgb(22, 31, 50);
+}
+
+/*modifie les crédits*/
+footer{
+    text-align: center;
+    margin-top: 50px;
+    display:bottom;
+    color: white;
+}
+
+/*modifie texte de présentation de région*/
+h3{
+    font-size:15px;
+    text-align:center;
+    color:white;
+    margin-left: 70px;
+    margin-right: 1000px;
+    margin-top: 30px;
+}
+
+/*Image de cartes de région*/
+.image2{
+    margin-left:1200px;
+    height: 250px ;
+}
+.image3{
+    margin-left:1200px;
+    height: 250px ;
+}
+.image4{
+    margin-left:1200px;
+    height: 250px ;
+}
+
+/*modifie image de Menu*/
+.Menu{
+    margin-left: 450px;
+    width:40%;
+}
