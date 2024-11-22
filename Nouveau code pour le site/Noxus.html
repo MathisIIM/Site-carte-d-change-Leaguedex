@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Leaguedex - Ionia</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto|Pacifico|Gwendolyn|Matemasie" rel="stylesheet">
+    <link rel="stylesheet" href="StyleSite.css">
+</head>
+<body class="background">
+    <section class="presentation-section">
+        <div class="presentation-contenu">
+            <div class="bloc-1">
+                <a href="Menu.html">
+                    <img class="logo" src="Logo.png" alt="Logo">
+                </a>
+            </div>
+            <div class="bloc-2">
+                <h1 class="titre">Leaguedex</h1>        
+            </div>
+            <div><button id="theme-toggle">Changer Mode</button></div>
+        </div>
+    </section>
+
+    <!-- Liste des tabs -->
+    <ul class="tabs">
+        <li class="tab tab-content1">Ionia</li>
+        <li class="tab tab-content2 tab-active">Noxus</li>
+        <li class="tab tab-content3">Bandle</li>
+        <li class="tab tab-content4">Contact</li>
+    </ul>
+
+    <!-- Contenu des tabs -->
+    <div class="content content1">
+        <p><h2 class="titre2">Leaguedex : Ionia</h2>
+            <h3 class="marge2">Ionia est une région spirituelle. Voici quelques champions d'Ionia :</h3>
+            <ul>
+                <li>
+                    <h4>Irelia</h4>
+                    <p>Danse des lames.</p>
+                    <img src="Irelia.png" class="image2" alt="Irelia">
+                </li>
+                <li>
+                    <h4>Yasuo</h4>
+                    <p>Le dernier souffle.</p>
+                    <img src="Yasuo.png" class="image3" alt="Yasuo">
+                </li>
+                <li>
+                    <h4>Karma</h4>
+                    <p>Enchanteresse illuminée.</p>
+                    <img src="Karma.png" class="image4" alt="Karma">
+                </li>
+            </ul>
+            <footer>Aucun Poro n'a été blessé lors de la création de ce site</footer></p>
+    </div>
+    <div class="content content2 active">
+        <p><h2 class="titre2">Leaguedex : Noxus</h2>
+            <h3 class="marge2">Noxus est une nation agressive. Voici quelques champions de Noxus :</h3>
+            <ul>
+                <li>
+                    <h4>Darius</h4>
+                    <p>La main de Noxus.</p>
+                    <img src="Darius.png" class="image2" alt="Darius">
+                </li>
+                <li>
+                    <h4>Draven</h4>
+                    <p>Le bourreau glorieux.</p>
+                    <img src="Draven.png" class="image3" alt="Draven">
+                </li>
+                <li>
+                    <h4>Swain</h4>
+                    <p>Le maître tacticien.</p>
+                    <img src="Swain.png" class="image4" alt="Swain">
+                </li>
+            </ul>
+            <footer>Aucun Poro n'a été blessé lors de la création de ce site</footer></p>
+    </div>
+    <div class="content content3">
+        <p><h2 class="titre2">Leaguedex : Bandle</h2>
+            <h3 class="marge2">Bandle est une terre de yordles. Voici quelques champions de Bandle :</h3>
+            <ul>
+                <li>
+                    <h4>Teemo</h4>
+                    <p>L'éclaireur rapide.</p>
+                    <img src="Teemo.png" class="image2" alt="Teemo">
+                </li>
+                <li>
+                    <h4>Tristana</h4>
+                    <p>L'artilleuse yordle.</p>
+                    <img src="Tristana.png" class="image3" alt="Tristana">
+                </li>
+                <li>
+                    <h4>Veigar</h4>
+                    <p>Le maître du mal.</p>
+                    <img src="Veigar.png" class="image4" alt="Veigar">
+                </li>
+            </ul>
+            <footer>Aucun Poro n'a été blessé lors de la création de ce site</footer></p>
+    </div>
+    <div class="content content4">
+        <p><h2 class="titre2">Leaguedex : Contact</h2>
+            <h3 class="marge2">Voici les différents formulaires qui vous sont proposés :</h3>
+            <ul>
+                <li>
+                    <h4>Compte :</h4>
+                    <p><section class="formulaire-section">
+                        <h2 class="titre2">Créer un compte</h2>
+                        <form action="#" method="post" class="form-style">
+                            <!-- Champ pour le pseudo -->
+                            <label for="pseudo">Pseudo :</label>
+                            <input type="text" id="pseudo" name="pseudo" placeholder="Entrez votre pseudo" required>
+                            
+                            <!-- Champ pour le mot de passe -->
+                            <label for="password">Mot de passe :</label>
+                            <input type="password" id="password" name="password" placeholder="Entrez votre mot de passe" required>
+                            
+                            <!-- Champ pour confirmer le mot de passe -->
+                            <label for="confirm-password">Confirmer le mot de passe :</label>
+                            <input type="password" id="confirm-password" name="confirm-password" placeholder="Confirmez votre mot de passe" required>
+                            
+                            <!-- Bouton de soumission -->
+                            <button type="submit">Créer un compte</button>
+                        </form>
+                    </section></p>
+                </li>
+                <li>
+                    <h4>Newsletter :</h4>
+                    <p><section class="formulaire-section">
+                        <h2 class="titre2">Inscrivez-vous à notre newsletter</h2>
+                        <form action="#" method="post" class="form-style">
+                            <label for="email">Adresse e-mail :</label>
+                            <input type="email" id="email" name="email" placeholder="votre-email@exemple.com" required>
+                            <button type="submit">S'inscrire</button>
+                        </form>
+                    </section>
+                </p>
+                </li>
+            </ul>
+            <footer>Aucun Poro n'a été blessé lors de la création de ce site</footer></p>
+    </div>
+    <script src = "MainSite.js"></script>
+</body>
+</html>
